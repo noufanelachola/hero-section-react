@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 3rem;
+    padding-block: 1rem;
+    background-color: rgba(250, 235, 215, 0.726);
+
+}
+
+.logo , h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+h1 ,
+a {
+    font-family: sans-serif , "Poppins";
+}
